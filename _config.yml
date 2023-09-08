@@ -1,0 +1,65 @@
+# Site
+name: 'TheOriginator'
+description: 'Discover the Roots of Knowledge with The Originator'
+logo: 'assets/images/logo.JPG'
+favicon: 'assets/images/logo.JPG'
+baseurl: '/index.html'
+disqus: 'demowebsite'
+email: 'info@theoriginator.org'
+mailchimp-list: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    sal:
+      name:           TheOriginator
+      site:           https://theoriginator.org
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Hi, I am theoriginator, the author of TheoOiginator. I hope you like it!"
+      email:          info@theoriginator.org
+      twitter:        https://twitter.com/
+
+    jane:
+      name:           TheOriginator 2
+      site:           https://theoriginator.org
+      avatar:         /assets/images/avatar2.jpg
+      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      email:          info@theOriginator.org
+      twitter:        https://twitter.com/
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
