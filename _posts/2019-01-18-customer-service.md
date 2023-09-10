@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What is Jekyll"
-author: jane
+title:  "What is Originator"
+author: theoriginator
 categories: [tutorial ]
 image: assets/images/11.jpg
 ---
@@ -10,9 +10,9 @@ No more databases, comment moderation, or pesky updates to install-just your con
 
 Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.
 
-## What is Jekyll?
+## What is Originator?
 
-Jekyll is a simple, blog-aware, static site generator.
+
 
 You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.
 
