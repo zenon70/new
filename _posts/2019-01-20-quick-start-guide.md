@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick Start Guide"
-author: sal
+author: theoriginator
 categories: [ tutorial ]
 image: assets/images/12.jpg
 ---
